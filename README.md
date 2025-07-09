@@ -2,7 +2,8 @@
 
 A robust backend email API service built with JavaScript (Node.js + Express), featuring fault tolerance, exponential retries, fallback between providers, idempotency, queueing, rate limiting, circuit breaker, and full status tracking.
 
-> 🚀 **Live API:** [https://email-service-js.onrender.com](https://email-service-js.onrender.com)  
+> 🚀 **Live API:** [https://email-service-js.onrender.com](https://email-service-js.onrender.com)
+> 
 > 📁 **GitHub Repo:** [https://github.com/JashChowdaryCh/email-service-js](https://github.com/JashChowdaryCh/email-service-js)
 
 ---
