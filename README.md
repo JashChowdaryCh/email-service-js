@@ -127,7 +127,7 @@ npm start
 ```
 ### ✅ Features Checklist
 
-Feature	                            Status
+### Feature	                            Status
 
 Two mock providers	                 ✅
 
