@@ -125,6 +125,7 @@ npm start
 }
 ```
 ### ✅ Features Checklist
+
 Feature	Status
 
 Two mock providers	✅
@@ -152,6 +153,7 @@ Deployed to Render	✅
 
 ### 🔬 Testing Summary
 ### 🧪 Manual Testing (Postman)
+
 Tested all endpoints (/send-email, /queue-email)
 
 Verified retry, fallback, duplicate protection, rate limits, etc.
@@ -188,11 +190,16 @@ Queue and state reset on server restart
 
 ### ✍️ Author
 Jaswanth Chilakalapudi
+
 📧 Email: chilakalapudijaswanth@gmail.com
+
 📦 GitHub: github.com/JashChowdaryCh
+
 🌐 Live API: https://email-service-js.onrender.com
+
 
 ### 📜 License
 This project is part of the PearlThoughts Backend Developer Trainee submission.
+
 Use or extend with proper attribution.
 
