@@ -37,21 +37,37 @@ A robust backend email API service built with JavaScript (Node.js + Express), fe
 ## 📂 Folder Structure
 
 email-service-js/
+
 ├── src/
+
 │ ├── app.js
+
 │ ├── services/
+
 │ │ ├── EmailService.js
+
 │ │ ├── ProviderA.js
+
 │ │ └── ProviderB.js
+
 │ ├── queue/
+
 │ │ └── emailQueue.js
+
 │ └── utils/
+
 │ └── logger.js
+
 ├── tests/
+
 │ └── emailService.test.js
+
 ├── .gitignore
+
 ├── package.json
+
 └── README.md
+
 
 
 ---
@@ -110,17 +126,29 @@ npm start
 ```
 ### ✅ Features Checklist
 Feature	Status
+
 Two mock providers	✅
+
 Retry with exponential backoff	✅
+
 Fallback to secondary provider	✅
+
 Idempotency to avoid duplicates	✅
+
 Rate limiting (5/min/email)	✅
+
 Queue-based background emails	✅
+
 Circuit breaker on failures	✅
+
 Timestamped logging	✅
+
 Unit tests with Jest	✅
+
 API tested via Postman	✅
+
 Deployed to Render	✅
+
 
 ### 🔬 Testing Summary
 ### 🧪 Manual Testing (Postman)
@@ -136,13 +164,18 @@ npm test
 
 Provider switching
 
+
 Retry logic
+
 
 Idempotency
 
+
 Rate limiting
 
+
 Circuit breaker
+
 
 ### 🔒 Assumptions
 No real email is sent (mock providers simulate delivery)
